@@ -1,0 +1,164 @@
+/*Config Geral*/
+* {
+  /*Mudanças a nivel global*/
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+body {
+  /* Aprendemos a tratar uma imagem de fundo  */
+
+  /*Agrupando tudo que foi visto acima em uma só propriedade*/
+  background: url(./assets/bg-moble.jpg) no-repeat top center/cover;
+  
+} 
+
+/**/
+body * {
+  /*Sletor universal sera aplicado em tudo */
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+/**/
+#container {
+  width: 100%;
+  max-width: 500px;
+  margin: 35px auto 0px;
+  padding: 0 24px;
+}
+
+/**/
+#profile {
+  text-align: center; /* Alinhar elemento ou a foto ao centro*/
+  padding: 15px;
+}
+
+/**/
+#profile img {
+  width: 112px; /*trabalhando no tamanho da imagem */
+}
+
+/**/
+#profile p {
+  font-weight: 500; /*é o negrito*/
+  font-size: 15px;
+  line-height: 24px; /*Altura da linha*/
+  margin-top: 8px; /**/
+}
+
+/*Ul*/
+ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 15px 0;
+}
+
+/*li*/
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 16px 24px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+
+  backdrop-filter: blur(4px);
+
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.4s;   
+}
+
+ul li a:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+#social-links{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+
+  padding: 10px 0;
+  font-size: 35px;
+}
+
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 50%;
+  transition: background 0.4s;
+
+}
+
+#social-links a:hover {
+  background: rgba(255, 255, 255, 0.2);
+ 
+}
+
+footer{
+ padding: 0px;
+ text-align: center;
+}
+
+#sobre-eu{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 0px 0px 10px 0px;
+  justify-content: center;
+ 
+  
+}
+
+#sobre-eu p {
+background: rgba(255, 255, 255, 0.1);
+padding: 100px;
+border-radius: 15px;
+}
+
+#voltar{
+padding: 10px;
+border-radius: 15px;
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+}
+
+#voltar p a {
+  list-style: none;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.4s;
+}
+
+#voltar a:hover{
+  background: rgba(255, 255, 255, 0.3);
+}
+
+#profilee {
+  text-align: center; /* Alinhar elemento ou a foto ao centro*/
+  padding: 44px;
+}
+
+/**/
+#profilee img {
+  width: 112px; /*trabalhando no tamanho da imagem */
+}
+#profilee p {
+  text-align: center;
+  padding: 15px 0px 0px 0px;
+}
